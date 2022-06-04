@@ -22,7 +22,7 @@ public class FileSizeSummary {
     private long printFileSize(String dirName) {
         File dir = new File(dirName);
         long sum = 0;
-        
+
         if(dir.isDirectory()) {
             File [] fileList = dir.listFiles();
             for(File file : fileList) {
